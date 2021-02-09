@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=JDiskReport
+Comment=The tool analyses your disk drives and collects several statistics 
+Exec=AppRun
+Icon=jdiskreport
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=Utility;
+StartupWMClass=JDiskReport
+StartupNotify=true
+
+

@@ -1,0 +1,1 @@
+# JDiskReport.AppImage
