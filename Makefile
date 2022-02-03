@@ -16,7 +16,7 @@ all: clean
 	mkdir --parents $(PWD)/build/Boilerplate.AppDir/jdiskreport2
 	apprepo --destination=$(PWD)/build appdir boilerplate 
 
-	wget --output-document=$(PWD)/build/Boilerplate.AppDir/jdiskreport2/jdiskreport.jar http://www.jgoodies.com/download/jdiskreport2/jdiskreport-2pre29.jar
+	wget --output-document=$(PWD)/build/Boilerplate.AppDir/jdiskreport2/jdiskreport.jar http://www.jgoodies.com/download/jdiskreport2/jdiskreport-2beta2.jar
 
 	wget --no-check-certificate --output-document=$(PWD)/build/build.rpm --continue https://forensics.cert.org/centos/cert/8/x86_64/jdk-12.0.2_linux-x64_bin.rpm
 	cd $(PWD)/build && rpm2cpio build.rpm | cpio -idmv
